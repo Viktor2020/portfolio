@@ -1,0 +1,31 @@
+[
+    {
+      "name": "Portfolio",
+      "desc": "Development of this site",
+      "tech": ["Vue.js", "Three.js", "Html", "Css", "Git", "Node.js", "npm", "Webpack", "Babel"]
+    },
+    {
+      "name": "Iteria ROOMS",
+      "desc": "Online floor plan planner with extensive furnishing options, iteria ROOMS is primarily used as a solution for the creation of professional floor plans for the marketing of real estate. With just a few clicks, you can draw professional floor plans",
+      "tech": ["Three.js", "Pixi.js", "JavaSctipt", "PHP"],
+      "link": "https://youtu.be/JXqJo2IEWXk"
+    },
+    {
+      "name": "Loader",
+      "desc": "Online editor of 3D scenes, like Clara.io. That is, online you can build a full-fledged scene in 3D and walk around it, you can throw physics, objects, shapes.",
+      "tech": ["Three.js", "Pixi.js", "JavaSctipt", "PHP", "Ammo.js"],
+      "link": "https://youtu.be/60uVsBGE9tM"
+    },
+    {
+      "name": "Box room",
+      "desc": "In this component, you can drag and drop pieces of furniture in the dynamics and join them together. You can replace them with internal and external coating materials.",
+      "tech": ["Three.js", "Pixi.js", "JavaSctipt", "PHP"],
+      "link": "https://youtu.be/gPdqH9lXC1E"
+    },
+    {
+      "name": "PopEvents",
+      "desc": "Home project for learning technology Java Platform, Enterprise Edition",
+      "tech": ["Java", "JavaSctipt", "MySQL", "SQL", "JDBC", "Hibernate", "Spring", "JSP", "Maven", "Servlet", "JUnit"],
+      "link": "https://github.com/Viktor2020/PopEvents"
+    }
+]
