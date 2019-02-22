@@ -42,7 +42,7 @@
     </nav>
     <div class="hero">
       <div id="container"></div>
-      <div class="overlay">
+      <div class="overlay" id="overlay">
         <div class="homeContent">
           <a
             href="mailto:viktorkostraba@gmail.com"
@@ -59,10 +59,23 @@
 
 <script>
 import App3D from "../app/App3D";
-setTimeout(App3D);
 
 export default {
-  methods: {}
+  methods: {},
+  mounted() {
+    new App3D();
+    var container = document.getElementById("overlay");
+    container.style.width = window.innerWidth + "px";
+    container.style.height = window.innerHeight + "px";
+    window.addEventListener(
+      "resize",
+      function() {
+        container.style.width = window.innerWidth + "px";
+        container.style.height = window.innerHeight + "px";
+      },
+      false
+    );
+  }
 };
 </script>
 
@@ -135,16 +148,12 @@ export default {
   border-radius: 50%;
 }
 .hero {
-  height: 100vh;
-  width: 100vw;
   position: relative;
   display: block;
   overflow: hidden;
 }
 
 .overlay {
-  height: 100vh;
-  width: 100vw;
   position: relative;
   display: block;
   overflow: hidden;

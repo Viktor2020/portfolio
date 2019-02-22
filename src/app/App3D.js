@@ -156,9 +156,9 @@ export default function () {
         var colorpos = 0;
         var numConnected = 0;
         var alphaPoint = {
-            x: window.innerWidth * 0.15,
+            x: window.innerWidth * 0.2,
             y: window.innerHeight * 0.35,
-            r: 100,
+            r: 130,
             r1: 300
         }
         var alphaPoint2 = {
