@@ -44,7 +44,10 @@
       <div id="container"></div>
       <div class="overlay">
         <div class="homeContent">
-          <p class="bold-tag tag is-light-dark w300 is-size-8">viktorkostraba@gmail.com</p>
+          <a
+            href="mailto:viktorkostraba@gmail.com"
+            class="bold-tag tag is-light-dark w300 is-size-8"
+          >viktorkostraba@gmail.com</a>
           <h1 class="w300 is-size-2">Viktor Kostraba</h1>
           <h1 class="w300 is-size-5">Webgl 2d | 3d Developer</h1>
         </div>
