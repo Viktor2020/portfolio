@@ -132,7 +132,9 @@ export default function () {
         //
         window.addEventListener("resize", onWindowResize, false);
         document.addEventListener('mousemove', onDocumentMouseMove, false);
-
+        document.addEventListener('touchstart', onDocumentMouseMove, false);
+        document.addEventListener('touchmove', onDocumentMouseMove, false);
+        
         // stats = new Stats();
         // container.appendChild(stats.dom);
     }
@@ -142,8 +144,12 @@ export default function () {
         renderer.setSize(window.innerWidth, window.innerHeight);
     }
 
-    function onDocumentMouseMove () {
-        vMouse.set((event.clientX ), (event.clientY));
+    function onDocumentMouseMove (e) {
+        if ((e.clientX) && (e.clientY)) {
+            vMouse.set(e.clientX, e.clientY)
+        } else if (e.targetTouches) {
+            vMouse.set(e.targetTouches[0].clientX, e.targetTouches[0].clientY)
+        }
     }
 
     function getAlpha(pScreen, p, r, r1) {
