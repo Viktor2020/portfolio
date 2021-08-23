@@ -10,15 +10,15 @@
 </template>
 
 <script>
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import Hero from './components/Hero'
+import About from './components/About'
+import Skills from './components/Skills'
+import Experience from './components/Experience'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     Hero,
     About,
@@ -27,7 +27,7 @@ export default {
     Projects,
     Contact
   }
-};
+}
 </script>
 
 <style lang="scss">

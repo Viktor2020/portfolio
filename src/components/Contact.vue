@@ -6,7 +6,7 @@
           <span style="margin-bottom:30px" class="underline heading is-size-2 w300">Contact</span>
           <span>
             Drop me an email at
-            <a href="mailto:viktorkostraba@gmail.com">viktorkostraba@gamil.com</a>
+            <a href="https://www.linkedin.com/in/viktorkostraba/">LinkedIn</a>
           </span>
         </div>
       </div>
@@ -14,18 +14,15 @@
     <footer class="footer" style="padding:8px 0px 40px 0px; background: #292929;">
       <div class="content has-text-centered">
         <div class="social-icons has-text-centered">
-          <a href="mailto:viktorkostraba@gmail.com">
-            <i class="fa fa-envelope"></i>
-          </a>
           <a target="_blank" href="https://github.com/Viktor2020">
             <i class="fa fa-github"></i>
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/viktor-kostraba/">
+          <a target="_blank" href="https://www.linkedin.com/in/viktorkostraba/">
             <i class="fa fa-linkedin"></i>
           </a>
         </div>
         <p style="color:#BBBBBB; margin-top:20px">
-          <i class="fa fa-copyright"></i> 2019
+          <i class="fa fa-copyright"></i> 2019-{{ new Date().getFullYear() }}
           <strong style="color:#BBBBBB">Viktor Kostraba</strong>
         </p>
       </div>

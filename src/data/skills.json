@@ -1,4 +1,5 @@
-[{
+[
+  {
     "category": "",
     "items": [
       {
@@ -6,110 +7,139 @@
         "level": "3"
       },
       {
-        "name": "WebGL",
+        "name": "React",
         "level": "3"
       },
       {
-        "name": "Three.js",
+        "name": "Redux",
         "level": "3"
       },
       {
-        "name": "Pixi.js",
+        "name": "Saga",
         "level": "3"
       },
       {
-        "name": "GLSL",
+        "name": "Material UI",
         "level": "3"
       },
       {
-        "name": "Ammo.js Physics",
+        "name": "SPA",
+        "level": "3"
+      },
+      {
+        "name": "REST API",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "category": "",
+    "items": [
+      {
+        "name": "Storybook",
+        "level": "3"
+      },
+      {
+        "name": "Unit testing",
+        "level": "3"
+      },
+      {
+        "name": "Marko JS",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "category": "",
+    "items": [
+      {
+        "name": "JavaSctipt",
+        "level": "3"
+      },
+      {
+        "name": "TypeScript",
+        "level": "3"
+      },
+      {
+        "name": "Java",
         "level": "2"
       }
     ]
   },
-    {
-
-        "category" : "",
-        "items": [
-                  {
-                    "name": "JavaSctipt",
-                    "level": "3"
-                  },
-                  {
-                    "name": "TypeScript",
-                    "level": "3"
-                  },
-                  {
-                    "name": "Java",
-                    "level": "3"
-                  }
-                ]
-    },
-    {
-      "category": "",
-      "items": [
-        {
-          "name": "HTML",
-          "level": "3"
-        },
-        {
-          "name": "Canvas",
-          "level": "3"
-        },
-        {
-          "name": "CSS",
-          "level": "3"
-        },
-        {
-          "name": "PHP",
-          "level": "2"
-        }
-      ]
-    },
-    
-    {
-        "category": "",
-        "items": [{"name" : "Git", "level" : "3"}, 
-                  {"name" : "GitHub", "level" : "3"},
-                  {"name" : "Bitbucket", "level" : "3"}
-                ]
-    },
-    {
-      "category": "",
-      "items": [
-        {
-          "name": "Vue.js",
-          "level": "2"
-        },
-        {
-          "name": "React",
-          "level": "2"
-        },
-        {
-          "name": "Node.js",
-          "level": "2"
-        },
-        {
-          "name": "npm",
-          "level": "2"
-        },
-        {
-          "name": "Webpack",
-          "level": "2"
-        }
-      ]
-    },
-    {
-      "category": "",
-      "items": [
-        {
-          "name": "MySQL",
-          "level": "2"
-        },
-        {
-          "name": "SQL",
-          "level": "2"
-        }
-      ]
-    }
+  {
+    "category": "",
+    "items": [
+      {
+        "name": "HTML",
+        "level": "3"
+      },
+      {
+        "name": "CSS",
+        "level": "3"
+      },
+      {
+        "name": "Canvas",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "category": "",
+    "items": [
+      {
+        "name": "Git",
+        "level": "3"
+      },
+      {
+        "name": "Jira",
+        "level": "3"
+      },
+      {
+        "name": "Confluence",
+        "level": "3"
+      },
+      {
+        "name": "GitHub",
+        "level": "3"
+      },
+      {
+        "name": "Bitbucket",
+        "level": "3"
+      },
+      {
+        "name": "GitLab",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "category": "",
+    "items": [
+      {
+        "name": "Node.js",
+        "level": "3"
+      },
+      {
+        "name": "Docker",
+        "level": "2"
+      },
+      {
+        "name": "CI/CD",
+        "level": "2"
+      }
+    ]
+  },
+  {
+    "category": "",
+    "items": [
+      {
+        "name": "MongoDB",
+        "level": "3"
+      },
+      {
+        "name": "MySQL",
+        "level": "3"
+      }
+    ]
+  }
 ]

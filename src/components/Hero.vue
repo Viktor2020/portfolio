@@ -45,11 +45,13 @@
       <div class="overlay" id="overlay">
         <div class="homeContent">
           <a
-            href="mailto:viktorkostraba@gmail.com"
+            href="https://www.linkedin.com/in/viktorkostraba/"
             class="bold-tag tag is-light-dark w300 is-size-8"
-          >viktorkostraba@gmail.com</a>
+          >
+            LinkedIn
+          </a>
           <h1 class="w300 is-size-2">Viktor Kostraba</h1>
-          <h1 class="w300 is-size-5">Webgl 2d | 3d Developer</h1>
+          <h1 class="w300 is-size-5">Front End Developer</h1>
         </div>
         <a class="scroll-down" v-smooth-scroll="{duration: 1000}" href="#about"></a>
       </div>
